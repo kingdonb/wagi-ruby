@@ -1,2 +1,6 @@
 /logs/
 /cache/
+/.gem
+!.gem/ruby/3.2.0/specifications/awesome_print-1.9.2.gemspec
+/spin-kitchensink/
+/wagi/
