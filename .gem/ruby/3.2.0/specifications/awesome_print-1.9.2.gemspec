@@ -13,26 +13,16 @@ Gem::Specification.new do |s|
   s.email = "mike@dvorkin.net".freeze
   s.homepage = "https://github.com/awesome-print/awesome_print".freeze
   s.licenses = ["MIT".freeze]
-  s.rubygems_version = "3.3.7".freeze
+  s.rubygems_version = "3.4.10".freeze
   s.summary = "Pretty print Ruby objects with proper indentation and colors".freeze
 
-  s.installed_by_version = "3.3.7" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.4.10" if s.respond_to? :installed_by_version
 
-  if s.respond_to? :specification_version then
-    s.specification_version = 4
-  end
+  s.specification_version = 4
 
-  if s.respond_to? :add_runtime_dependency then
-    s.add_development_dependency(%q<rspec>.freeze, [">= 3.0.0"])
-    s.add_development_dependency(%q<appraisal>.freeze, [">= 0"])
-    s.add_development_dependency(%q<fakefs>.freeze, [">= 0.2.1"])
-    s.add_development_dependency(%q<sqlite3>.freeze, [">= 0"])
-    s.add_development_dependency(%q<nokogiri>.freeze, [">= 1.11.0"])
-  else
-    s.add_dependency(%q<rspec>.freeze, [">= 3.0.0"])
-    s.add_dependency(%q<appraisal>.freeze, [">= 0"])
-    s.add_dependency(%q<fakefs>.freeze, [">= 0.2.1"])
-    s.add_dependency(%q<sqlite3>.freeze, [">= 0"])
-    s.add_dependency(%q<nokogiri>.freeze, [">= 1.11.0"])
-  end
+  s.add_development_dependency(%q<rspec>.freeze, [">= 3.0.0"])
+  s.add_development_dependency(%q<appraisal>.freeze, [">= 0"])
+  s.add_development_dependency(%q<fakefs>.freeze, [">= 0.2.1"])
+  s.add_development_dependency(%q<sqlite3>.freeze, [">= 0"])
+  s.add_development_dependency(%q<nokogiri>.freeze, [">= 1.11.0"])
 end

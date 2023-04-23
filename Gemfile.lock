@@ -2,12 +2,22 @@ GEM
   remote: https://rubygems.org/
   specs:
     awesome_print (1.9.2)
+    gammo (0.3.0)
+
+GEM
+  remote: https://rubygems.pkg.github.com/kingdonb/
+  specs:
 
 PLATFORMS
   arm64-darwin-21
+  arm64-darwin-22
 
 DEPENDENCIES
   awesome_print
+  gammo
+
+RUBY VERSION
+   ruby 3.2.2p53
 
 BUNDLED WITH
    2.3.7
